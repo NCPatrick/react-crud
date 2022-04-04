@@ -1,31 +1,79 @@
-{
-  "User": {
-    "name": {
-      "string": {}
+[
+    {
+        "Expires": "3/19/22",
+        "Item": "2% Milk",
+        "Location": "Refrigerator",
+        "Quantity": 1,
+        "Units": "Gallon"
     },
-    "avatarUrl": {
-      "regexp": "https://i\\.pravatar\\.cc/150?u=[0-9]{5}"
+    {
+        "Expires": "3/23/22",
+        "Item": "Chicken Breast",
+        "Location": "Refrigerator",
+        "Quantity": 1.5,
+        "Units": "LBS"
     },
-    "statusMessage": {
-      "string": [
-        "working from home",
-        "watching Netflix"
-      ]
+    {
+        "Expires": "3/30/22",
+        "Item": "Lettuce",
+        "Location": "Refrigerator",
+        "Quantity": 0.5,
+        "Units": "Head"
     },
-    "email": {
-      "regexp": "#[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
+    {
+        "Expires": "4/6/23",
+        "Item": "Ranch Salad Dressing",
+        "Location": "Refrigerator",
+        "Quantity": 0.75,
+        "Units": "Bottle"
     },
-    "color": {
-      "regexp": "#[0-9A-F]{6}"
+    {
+        "Expires": "5/5/25",
+        "Item": "Frosted Flakes",
+        "Location": "Pantry",
+        "Quantity": 0.25,
+        "Units": "Box"
     },
-    "age": {
-      "int": {
-        "min": 21,
-        "max": 100
-      }
+    {
+        "Expires": "4/1/2026",
+        "Item": "Granular Sugar",
+        "Location": "Cabinet",
+        "Quantity": 4,
+        "Units": "LBS"
     },
-    "isPublic": {
-      "boolean": {}
+    {
+        "Expires": "5/3/25",
+        "Item": "Chocolate Chips",
+        "Location": "Cabinet",
+        "Quantity": 16,
+        "Units": "Ounces"
+    },
+    {
+        "Expires": null,
+        "Item": "Frozen Pizza",
+        "Location": null,
+        "Quantity": 2,
+        "Units": "Each"
+    },
+    {
+        "Expires": null,
+        "Item": "Carrots",
+        "Location": null,
+        "Quantity": 1,
+        "Units": "Bunch"
+    },
+    {
+        "Expires": "",
+        "Item": "Coffee",
+        "Location": "",
+        "Quantity": 1,
+        "Units": "Box"
+    },
+    {
+        "Expires": null,
+        "Item": "Regular Potato Chips",
+        "Location": null,
+        "Quantity": 1,
+        "Units": "Bag"
     }
-  }
-}
+]
